@@ -1,3 +1,7 @@
+# Test-driven Development Using React
+
+This repo contains my follow-along source code for writing a React app using TDD. Kudos to Chris Minnich and his excellent course found here: [Test-driven Development Using React][https://app.pluralsight.com/library/courses/test-driven-development-react/table-of-contents]
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
