@@ -1,8 +1,20 @@
 import React, { Component } from "react";
+import "./Map.css";
 
 class Map extends Component {
   render() {
-    return (<img src="default.jpg"></img>);
+    let imagePath;
+    if (this.props.imageName) {
+      imagePath = "images/" + this.props.imageName;
+    } else {
+      imagePath = "images/none.png";
+    }
+
+    return (
+      <div className="MapBox">
+        <img src={imagePath} alt="Location Map"></img>
+      </div>
+    );
   }
 }
 

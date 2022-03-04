@@ -3,8 +3,8 @@ import React, { Component } from "react";
 class Header extends Component {
   render() {
     return (
-      <div className="App">
-        <p className="App-Intro">This is the header!</p>
+      <div>
+        <img src="images/wired-brain-coffee-logo.png" alt="Wired Brain" />
       </div>
     );
   }
